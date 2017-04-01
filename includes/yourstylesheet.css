@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+  background-color: #e8e8e8;
+  border: 1px groove #000;
+  padding: 0px 9px;
+  margin:0px;
+  color: #000;
+  text-decoration: none;
+  font: small Verdana, Geneva, sans-serif;
+  display:inline-block;
+}
+a:hover {
+  background-color:#9FF;
+}
+
+table {background-color:#9FF;
+	border: thin double #009;
+	border-collapse:collapse;
+}th, td {padding: 6px;
+	border: thin solid #009;
+	text-align: left;
+	vertical-align: middle;
+}
+th{font-variant:small-caps;
+	font-weight:bold;
+	background-color:#009;
+	color:#fff;
+	border-color:#fff;
+	text-align:center;
+}
+
+
+label {
+float: left;
+width: 150px;
+text-align: right;
+padding-right: 10px;
+margin-top: 10px;
+}
+
+input, textarea, select {
+background-color:#e8e8e8;
+margin-top: 10px;
+padding:3px;
+border:1px solid #88aaaa;
+}
+
+
+
+input[type="submit"],
+input[type="reset"] {  background-color: #e8e8e8;
+  border: 1px groove #000;
+  padding: 0px 9px;
+  margin:6px;
+  color: #000;
+  text-decoration: none;
+  font: small Verdana, Geneva, sans-serif;
+
+
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background-color:#9FF;
+}
+
+#btns{margin-left:160px;}
+.greyed{color: #888;}
